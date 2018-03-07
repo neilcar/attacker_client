@@ -9,7 +9,7 @@ RUN pip install urllib3 ipaddress requests docopt
 
 # Install ncat (which is in nmap) and screen
 RUN apt-get update
-RUN apt-get install -y nmap screen dnsutils dig
+RUN apt-get install -y nmap screen dnsutils
 
 # Get our exploit code
 RUN mkdir struts2
