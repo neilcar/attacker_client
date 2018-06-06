@@ -23,5 +23,5 @@ RUN chmod +x /struts2/exploit_auto.sh
 
 # Sleep so that the container stays up
 # long enough for us to run the exploit
-CMD [ "sleep",  "10000"]
+CMD [ "sleep",  "10001"]
 
